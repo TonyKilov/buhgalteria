@@ -11,7 +11,7 @@ html,body {
 	visibility: hidden;
 }
 .container {
-	width: 1080px;
+	width: 1060px;
 	margin: 0 auto;
 
 }
@@ -22,9 +22,9 @@ html,body {
 
 .head_logo_containet {
 	float: left;
-	width: 26%;
+	width: 23.5%;
 	min-height: 80px;
-	margin: 0 10px;
+	margin: 0	;
 	background-color: #EAEAEA;	
 }
 .head_image {
@@ -38,7 +38,8 @@ html,body {
 
 .headt_image_title {
 	display: inline-block;
-	margin: 15px 0;
+	margin: 25px 0;
+	font-size: 12px;
 }
 
 .headt_image_title-goldcolor { color: #4A7830; }
@@ -80,7 +81,8 @@ html,body {
 }
 
 .basic_image-bglogo{
-	background-image: url(../image/bg-logo1.png) no-repeat center bottom;
-	widows: 100%;
-	height: 100%;
+	background-image: url(../image/bg-1.png);
+	height: 700px;
+	background-position: 82px;
+	background-repeat: no-repeat;
 }
