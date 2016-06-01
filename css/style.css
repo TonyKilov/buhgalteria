@@ -18,6 +18,10 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 .container-service-right {	padding-right: 60%; }
 .head{ border-bottom: 5px solid #4A7830; }
 .headt_image_title-goldcolor { color: #4A7830; }
+.wrap_form { padding-top: 20px; }
+.basic_form_title,
+.color-gray { color: rgba(169, 169, 169, 0.71); }
+.basic_form_title .color-gray { color: rgba(200,200,200,1); }
 
 .clearfix:after {
 	content: ".";
@@ -96,6 +100,14 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 
 /*.basic_space { padding-top: 25px; }
 */
+.form_nmb2{
+    width: 34%;
+    background-color: rgba(9,9,9,0.13);
+    margin: 20px auto;
+    padding: 25px 45px;
+    box-sizing: border-box;
+}
+
 .basic_form {
 	float: right;
     width: 34%;
@@ -351,3 +363,5 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 	background: url(../image/bg-4.png) no-repeat center bottom;
 	height: 500px;
 }
+
+.wrap_form { padding-top: 20px; }
