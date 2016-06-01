@@ -94,7 +94,7 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 
 .basic_image-bglogo{
 	background: url(../image/bg-1.png) no-repeat center bottom;
-	background-position: 82px;
+	background-position: 70% 5%;
 	overflow-x: hidden;
 }
 
@@ -111,7 +111,7 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 .basic_form {
 	float: right;
     width: 34%;
-    background-color: rgba(128,128,128,0.2);
+    background-color: rgba(128,128,128,0.5);
     margin: 20px 0;
     padding: 25px 45px;
     box-sizing: border-box;
@@ -124,7 +124,8 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 	text-transform: uppercase;
 }
 .basic_form-txt { 
-	display: block; 
+	display: block;
+	color: black; 
 	font-size: 20px;
 }
 
@@ -166,12 +167,12 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 }
 
 .lozung-title {
-	font-size: 30px;
+	font-size: 40px;
 	text-transform: uppercase;
 }
 
 .lozung-txt {
-	font-size: 25px;
+	font-size: 30px;
 	display: block;
 	text-transform: uppercase;
 }
