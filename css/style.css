@@ -22,6 +22,8 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 .basic_form_title,
 .color-gray { color: rgba(169, 169, 169, 0.71); }
 .basic_form_title .color-gray { color: rgba(200,200,200,1); }
+.wrap_form { padding-top: 20px; }
+.block-wrap-why { margin: 50px 0; }
 
 .clearfix:after {
 	content: ".";
@@ -262,7 +264,7 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 
@@ -365,4 +367,32 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 	height: 500px;
 }
 
-.wrap_form { padding-top: 20px; }
+.why-client {
+	background: url(../image/bg-3.png) no-repeat center bottom;
+	height: 800px;
+	margin-top: 5px;
+}
+
+.block-why { 
+	width: 50%;
+	margin-left: 90px;
+}
+
+.block-why-size {
+	margin-top: 20px; 
+	height: 72px;
+    padding-left: 85px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    /* line-height: 72px; */
+    font-size: 20px;
+
+}
+
+.block-why-image1 { background: url(../image/why-we-1.png) no-repeat; }
+.block-why-image2 { background: url(../image/why-we-2.png) no-repeat; }
+.block-why-image3 { background: url(../image/why-we-3.png) no-repeat; }
+.block-why-image4 { background: url(../image/why-we-4.png) no-repeat; }
+.block-why-image5 { background: url(../image/why-we-5.png) no-repeat; }
+.block-why-image6 { background: url(../image/why-we-6.png) no-repeat; }
+.block-why-image7 { background: url(../image/why-we-7.png) no-repeat; }
