@@ -406,16 +406,41 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 	width: 19%;
 	float: left;
 	text-align: center;
+	border: 2px solid transparent;
 }
+
+.block-how:hover{
+	border: 2px solid #4A7830;
+}
+
+.block-how:hover .block-how-circle .block-how-listing{
+	background: url("../image/how-work-1--hover.png") no-repeat center bottom;
+	margin: 0px 45px;
+    background-position: 24px;
+    height: 80px;
+    top: 50px;
+    position: relative;
+}
+.block-how:hover .block-how-circle .block-how-message {
+	background: url(../image/how-work-2--hover.png) no-repeat center bottom;
+    margin: 0px 45px;
+    background-position: 10px;
+    height: 80px;
+    top: 50px;
+    position: relative;
+}
+
+
+
 .block-how:first-child {
-	margin-right: 1%;	
+	margin-right: 1px;	
 }
 .block-how:last-child {
-	margin-left: 1%;
+	margin-left: 1px;
 }
 .block-how:nth-child(3) {
-	margin-right: 1%;
-	margin-left: 1%;
+	margin-right: 1px;
+	margin-left: 1px;
 }
 
 .block-how-1numberico{
@@ -438,8 +463,16 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 
 .block-how-listing {
 	background: url(../image/how-work-1.png) no-repeat center bottom;
-    margin: 0px 50px;
-    background-position: 20px;
+    margin: 0px 45px;
+    background-position: 24px;
+    height: 80px;
+    top: 50px;
+    position: relative;
+}
+.block-how-message {
+	background: url(../image/how-work-2.png) no-repeat center bottom;
+    margin: 0px 45px;
+    background-position: 10px;
     height: 80px;
     top: 50px;
     position: relative;
