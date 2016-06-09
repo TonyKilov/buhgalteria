@@ -24,7 +24,9 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 .basic_form_title .color-gray { color: rgba(200,200,200,1); }
 .wrap_form { padding-top: 20px; }
 .how-work { margin: 25px 0; }
-
+.how-container { margin: 50px 0; }
+.block-txt-info { padding-top: 15px; }
+.service-mail--basic span { text-decoration: none; }
 
 .clearfix:after {
 	content: ".";
@@ -409,6 +411,7 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 	border: 2px solid transparent;
 }
 
+/*--block start hover--*/
 .block-how:hover{
 	border: 2px solid #4A7830;
 }
@@ -422,7 +425,7 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
     position: relative;
 }
 .block-how:hover .block-how-circle .block-how-message {
-	background: url(../image/how-work-2--hover.png) no-repeat center bottom;
+	background: url("../image/how-work-2--hover.png") no-repeat center bottom;
     margin: 0px 45px;
     background-position: 10px;
     height: 80px;
@@ -430,10 +433,38 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
     position: relative;
 }
 
+.block-how:hover .block-how-circle .block-how-book {
+	background: url("../image/how-work-3--hover.png") no-repeat center bottom;
+    margin: 0px 45px;
+    background-position: 20px;
+    height: 80px;
+    top: 50px;
+    position: relative;
+}
 
+.block-how:hover .block-how-circle .block-how-documentation {
+	background: url("../image/how-work-4--hover.png") no-repeat center bottom;
+    margin: 0px 45px;
+    background-position: 20px;
+    height: 80px;
+    top: 50px;
+    position: relative;
+}
+
+.block-how:hover .block-how-circle .block-how-arms {
+	background: url("../image/how-work-5--hover.png") no-repeat center bottom;
+    margin: 0px 45px;
+    background-position: 10px;
+    height: 80px;
+    top: 50px;
+    position: relative;
+}
+
+/*--block end hover--*/
 
 .block-how:first-child {
-	margin-right: 1px;	
+	margin-right: 1px;
+	margin-left: 15px;	
 }
 .block-how:last-child {
 	margin-left: 1px;
@@ -451,7 +482,7 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 	background: rgba(202,202,202,0.8);
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	border-radius: 50%;
 	text-align: center;
 	line-height: 34px;
 }
@@ -478,3 +509,169 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
     position: relative;
 }
 
+.block-how-book {
+	background: url(../image/how-work-3.png) no-repeat center bottom;
+    margin: 0px 45px;
+    background-position: 20px;
+    height: 80px;
+    top: 50px;
+    position: relative;
+}
+
+.block-how-documentation {
+	background: url(../image/how-work-4.png) no-repeat center bottom;
+    margin: 0px 45px;
+    background-position: 20px;
+    height: 80px;
+    top: 50px;
+    position: relative;
+}
+
+.block-how-arms {
+	background: url(../image/how-work-5.png) no-repeat center bottom;
+    margin: 0px 45px;
+    background-position: 10px;
+    height: 80px;
+    top: 50px;
+    position: relative;
+}
+
+
+/*--block-reviews--*/
+.block-reviews {
+	background: url("../image/bg-5.png") no-repeat center bottom;
+	height: 550px;
+
+}
+
+.block-wrap-content{
+	background: url("../image/green-block--big.png") no-repeat center bottom;
+	min-height: 320px;
+	border-radius: 15px;
+}
+.block-wrap-content {
+	margin: 0 10px;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*-------block-image-profile-block-reviews---------*/
+.block-reviews-image{
+    border-radius: 100%;
+    height: 225px;
+    width: 220px;
+    background: url("../image/review-author-1.png") no-repeat;
+    top: 25px;
+    right: 45px;
+    position: absolute;
+}
+
+.block-reviews-border{
+	height: 216px;
+    width: 211px;
+    top: 4px;
+    right: 3px;
+    border: 1px solid rgb(107, 136, 55);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.block-txt-control {
+	width: 70%;
+    float: left;
+    padding: 10px 0 25px 15px;
+}
+
+.block-txt-title {
+	float: left;
+	font-size: 20px;
+}
+
+.block-txt-basic {
+	padding-top: 20px;
+    float: left;
+    font-size: 17px;
+    color: rgba(220, 220, 220, 0.95);
+}
+
+.block-txt-title span {
+	font-size: 25px;
+	text-decoration: underline;
+}
+.block-txt-title span:last-child {
+	background: url(../image/icon-quote.png) no-repeat;
+	height: 30px;
+	width: 35px;
+	float: right;
+	margin-left: 110px;
+}
+
+.service-wrap {
+	margin-top: 30px;
+}
+
+.service-adress {
+	margin: 15px 0;
+	font-size: 20px;
+}
+
+.service-mail {
+	width: 70%;
+	float: left;
+}
+
+.service-tel {
+	width: 30%;
+	float: right;
+}
+
+.service-mail--title {
+	font-size: 28px;
+	text-align: left;
+}
+
+.service-border {
+	border-left: 1px solid #4A7830;
+	height: 10px;
+	padding-left: 10px;
+	text-decoration: underline;
+}
+.service-txt-green {
+	padding-left: 10px;
+	color: #4A7830;
+}
+
+
+
+.service-tel--button {
+	background: url("../image/green-block--btn.png") no-repeat;
+    height: 105px;
+    width: 100%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.contact {
+	position: relative;
+	overflow: auto;
+}
+
+.maps {
+	position: relative;
+    width: 100%;
+    top: -65px;
+    min-height: 450px;
+}
+
+.footer {
+	height: 60px;
+	width: 100%;
+	background: #4F5E6E;
+}
