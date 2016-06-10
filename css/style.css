@@ -389,7 +389,7 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 	margin-top: 20px; 
 	height: 72px;
     padding-left: 85px;
-    padding-top: 25px;
+    padding-top: 15px;
     box-sizing: border-box;
     /* line-height: 72px; */
     font-size: 20px;
@@ -486,6 +486,19 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 	text-align: center;
 	line-height: 34px;
 }
+.block-how-1numberico:hover {
+	margin: 10px auto;
+	margin-top: 20px;
+	width: 35px;
+	height: 35px;
+	background: rgba(202,202,202,1);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 34px;
+}
+
 /*---block1----*/
 .block-how-circle {
 	background: url(../image/round-border.png) no-repeat center bottom;
@@ -653,9 +666,20 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
     font-size: 23px;
     text-transform: uppercase;
     font-weight: bold;
-    color: white;
+    
+	text-decoration: none;
     position: relative;
     z-index: 1;
+}
+
+ a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+    color: rgb(205, 210, 205);
 }
 
 .contact {
@@ -674,4 +698,11 @@ li.container-service-right { list-style-image: url("../image/list-marker--active
 	height: 60px;
 	width: 100%;
 	background: #4F5E6E;
+}
+
+.footer-logo {
+	padding: 20px 0;
+    float: right;
+    color: white;
+    font-size: 18px;
 }
